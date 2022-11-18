@@ -42,7 +42,7 @@ public class MessageService {
             dto = new VxMessageDto();
             dto.setTemplate_id(user.getTemplateId());
             HashMap<String, DataInfo> map = new HashMap<>();
-
+            CompletableFuture<Void> setCity = CompletableFuture.runAsync(()-> setCity(map,user),POOL);
             CompletableFuture<Void> setName = CompletableFuture.runAsync(()-> setName(map,user),POOL);
             CompletableFuture<Void> setBirthDay = CompletableFuture.runAsync(()-> setBirthDay(map,user),POOL);
             CompletableFuture<Void> setWeather = CompletableFuture.runAsync(()->{
@@ -263,6 +263,9 @@ public class MessageService {
     }
     private void setName(HashMap<String, DataInfo> map,User user){
         setMap(map, KeyConfig.KEY_USER_NAME,user.getUserName(),AllConfig.open_name);
+    }
+    private void setCity(HashMap<String, DataInfo> map,User user){
+        setMap(map, KeyConfig.KEY_CITY,user.getCity(),AllConfig.open_city);
     }
     private void setWeather(HashMap<String, DataInfo> map,String address,String city,String type){
         if(!AllConfig.open_weather.isOpen()){
