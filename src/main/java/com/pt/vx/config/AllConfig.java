@@ -79,7 +79,7 @@ public class AllConfig {
         //new BirthDay()里面代表[年]、[月]、[日]、[是否是农历(true为农历、false为公历)]、[是否统计天数(true为统计，false为倒计时)]、[倒计时到0天提示信息(如果类型为统计可以不填)]
 //         userList.add(getUser(
 //                 "oeSBO5veHm1oEw2fiHC1LLlvUeSM", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-//                 "mUFYQQBDChy1Kfbmww3RTVM1M379znA363TYLSlmYFc", //要给这个人发送的模板ID
+//                 "5f8INdmgAgrkYUlL8yeGDPlk5BgtvJCksMROUrAuFto", //要给这个人发送的模板ID
 //                 "云环姐姐", //咋称呼这个人
 //                 "北京市朝阳区", //这个人的详细地址
 //                 "北京", //这个人在的城市
@@ -90,7 +90,7 @@ public class AllConfig {
 //         ));
 //        userList.add(getUser(
 //                "oeSBO5vpuGXqU7uYJwfjQpu_vztA", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-//                "mUFYQQBDChy1Kfbmww3RTVM1M379znA363TYLSlmYFc", //要给这个人发送的模板ID
+//                "5f8INdmgAgrkYUlL8yeGDPlk5BgtvJCksMROUrAuFto", //要给这个人发送的模板ID
 //                "明辉哥", //咋称呼这个人
 //                "河南省新乡市牧野区河南师范大学", //这个人的详细地址
 //                "新乡", //这个人在的城市
@@ -102,7 +102,7 @@ public class AllConfig {
 
         userList.add(getUser(
                 "oeSBO5hqMScqg4KIMs2n1Fym4T8o", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "wehAiWX3eiWWWJeVOPhszWM5Xx9P9pMWTo_UmDurMfs", //要给这个人发送的模板ID
+                "5f8INdmgAgrkYUlL8yeGDPlk5BgtvJCksMROUrAuFto", //要给这个人发送的模板ID
                 "帅比",//咋称呼这个人
                 "河南省新乡市牧野区",//这个人的详细地址
                 "新乡",//这个人在的城市
@@ -115,7 +115,7 @@ public class AllConfig {
         ));
 //        userList.add(getUser(
 //                "oeSBO5uFR_aGjX8pwuSSMHcWeJ7s", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-//                "VW4D9EwHyavNq2ZaH9RT5mdtrBLpTkWzOgViRG5UzhE", //要给这个人发送的模板ID
+//                "5f8INdmgAgrkYUlL8yeGDPlk5BgtvJCksMROUrAuFto", //要给这个人发送的模板ID
 //                "勾八闯，别打游戏了你看看几点了",//咋称呼这个人
 //                "河南省新乡市牧野区",//这个人的详细地址
 //                "新乡",//这个人在的城市
@@ -128,7 +128,7 @@ public class AllConfig {
 //        ));
 //        userList.add(getUser(
 //                "oeSBO5mESD1vSjo5W_CcJoEpPfQw", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-//                "mUFYQQBDChy1Kfbmww3RTVM1M379znA363TYLSlmYFc", //要给这个人发送的模板ID
+//                "5f8INdmgAgrkYUlL8yeGDPlk5BgtvJCksMROUrAuFto", //要给这个人发送的模板ID
 //                "田田晚安奥",//咋称呼这个人
 //                "浙江省绍兴市",//这个人的详细地址
 //                "绍兴",//这个人在的城市
